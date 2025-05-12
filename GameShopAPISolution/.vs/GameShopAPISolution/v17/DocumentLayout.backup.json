@@ -51,8 +51,7 @@
               "RelativeToolTip": "GameShopAPI\\Models\\Users\\UserBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T09:06:12.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T09:06:12.227Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "GameShopAPI\\Repositories\\UserRepository.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T09:02:37.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T09:02:37.794Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "GameShopAPI\\Repositories\\Interfaces\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T09:00:37.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T09:00:37.88Z"
             }
           ]
         }
