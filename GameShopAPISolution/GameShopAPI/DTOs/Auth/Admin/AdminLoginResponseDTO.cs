@@ -6,7 +6,7 @@ namespace GameShopAPI.DTOs.Auth.Admin
     {
         public bool IsSuccessful { get; set; }
         public string? ErrorMessage { get; set; }
-        public AdminUser? AdminUser { get; set; }
+        public AdminU? AdminU { get; set; }
         public string? Token { get; set; }
     }
 }

@@ -8,6 +8,6 @@ namespace GameShopAPI.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<User> Users { get; set; }
-        public DbSet<AdminUser> AdminUsers { get; set; }
+        public DbSet<AdminU> AdminUsers { get; set; }
     }
 }

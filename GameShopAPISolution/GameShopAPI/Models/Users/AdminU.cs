@@ -1,6 +1,6 @@
 ﻿namespace GameShopAPI.Models.Users
 {
-    public class AdminUser : UserBase
+    public class AdminU : UserBase
     {
     }
 }

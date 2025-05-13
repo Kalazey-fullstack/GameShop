@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GameShopAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250512090734_InitialCreate")]
+    [Migration("20250513093739_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -25,7 +25,7 @@ namespace GameShopAPI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("GameShopAPI.Models.Users.AdminUser", b =>
+            modelBuilder.Entity("GameShopAPI.Models.Users.AdminU", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()

@@ -22,7 +22,7 @@ namespace GameShopAPI.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("GameShopAPI.Models.Users.AdminUser", b =>
+            modelBuilder.Entity("GameShopAPI.Models.Users.AdminU", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -38,7 +38,7 @@ namespace GameShopAPI.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("AdminUsers");
+                    b.ToTable("AdminU");
                 });
 
             modelBuilder.Entity("GameShopAPI.Models.Users.User", b =>
