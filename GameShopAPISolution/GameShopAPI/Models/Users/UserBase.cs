@@ -6,7 +6,7 @@ namespace GameShopAPI.Models.Users
 {
     public abstract class UserBase
     {
-        public int Id { get; set; }
+        public Guid Id { get; set; }
         [Required]
         [EmailAddress]
         public string? Email { get; set; }
