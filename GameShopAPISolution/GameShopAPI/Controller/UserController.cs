@@ -54,7 +54,7 @@ namespace GameShopAPI.Controller
         }
 
         //POST /User
-        [HttpGet]
+        [HttpPost]
         [SwaggerOperation(Summary = "Créer un nouvel utilisateur")]
         [ProducesResponseType(typeof(User), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]

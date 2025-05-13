@@ -7,6 +7,26 @@
       "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\controller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\helpers\\encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\helpers\\encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\models\\users\\userbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\models\\users\\userbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\helpers\\constantsvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\helpers\\constantsvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,18 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\migrations\\20250512090734_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\migrations\\20250512090734_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\models\\users\\userbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\models\\users\\userbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\repositories\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 22,
           "Children": [
             {
               "$type": "Bookmark",
@@ -118,7 +126,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Encryptor.cs",
+              "DocumentMoniker": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Helpers\\Encryptor.cs",
+              "RelativeDocumentMoniker": "GameShopAPI\\Helpers\\Encryptor.cs",
+              "ToolTip": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Helpers\\Encryptor.cs",
+              "RelativeToolTip": "GameShopAPI\\Helpers\\Encryptor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T07:05:09.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "GameShopAPI\\Data\\AppDbContext.cs",
+              "ToolTip": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "GameShopAPI\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T07:02:10.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "ConstantsValue.cs",
               "DocumentMoniker": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Helpers\\ConstantsValue.cs",
               "RelativeDocumentMoniker": "GameShopAPI\\Helpers\\ConstantsValue.cs",
@@ -126,7 +160,8 @@
               "RelativeToolTip": "GameShopAPI\\Helpers\\ConstantsValue.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T14:21:06.698Z"
+              "WhenOpened": "2025-05-12T14:21:06.698Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -136,26 +171,27 @@
               "RelativeDocumentMoniker": "GameShopAPI\\Controller\\UserController.cs",
               "ToolTip": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Controller\\UserController.cs",
               "RelativeToolTip": "GameShopAPI\\Controller\\UserController.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAmwCkAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wDgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T14:19:41.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "GameShopAPI.csproj",
               "DocumentMoniker": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\GameShopAPI.csproj",
               "RelativeDocumentMoniker": "GameShopAPI\\GameShopAPI.csproj",
               "ToolTip": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\GameShopAPI.csproj",
               "RelativeToolTip": "GameShopAPI\\GameShopAPI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T14:16:43.361Z"
+              "WhenOpened": "2025-05-12T14:16:43.361Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "20250512090734_InitialCreate.cs",
               "DocumentMoniker": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Migrations\\20250512090734_InitialCreate.cs",
               "RelativeDocumentMoniker": "GameShopAPI\\Migrations\\20250512090734_InitialCreate.cs",
@@ -163,11 +199,12 @@
               "RelativeToolTip": "GameShopAPI\\Migrations\\20250512090734_InitialCreate.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAqwCoAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T09:07:34.52Z"
+              "WhenOpened": "2025-05-12T09:07:34.52Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserBase.cs",
               "DocumentMoniker": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Models\\Users\\UserBase.cs",
               "RelativeDocumentMoniker": "GameShopAPI\\Models\\Users\\UserBase.cs",
@@ -175,23 +212,25 @@
               "RelativeToolTip": "GameShopAPI\\Models\\Users\\UserBase.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T09:06:12.227Z"
+              "WhenOpened": "2025-05-12T09:06:12.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "GameShopAPI\\Repositories\\UserRepository.cs",
               "ToolTip": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "GameShopAPI\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwB4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T09:02:37.794Z"
+              "WhenOpened": "2025-05-12T09:02:37.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "IRepository.cs",
               "DocumentMoniker": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Repositories\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "GameShopAPI\\Repositories\\Interfaces\\IRepository.cs",
@@ -199,7 +238,8 @@
               "RelativeToolTip": "GameShopAPI\\Repositories\\Interfaces\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T09:00:37.88Z"
+              "WhenOpened": "2025-05-12T09:00:37.88Z",
+              "EditorCaption": ""
             }
           ]
         }
