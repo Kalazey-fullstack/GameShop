@@ -9,6 +9,6 @@ namespace GameShopAPI.Services.Interfaces
         Task<AdminU> GetByEmail(string email);
         Task<AdminU> Create(AdminU adminU);
         Task<AdminU> Update(Guid id, AdminU adminU);
-        Task<AdminU> DeleteById(Guid id);
+        Task DeleteById(Guid id);
     }
 }
