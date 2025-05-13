@@ -9,22 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|f:\\_informatique\\projects\\gameshop\\gameshopapisolution\\gameshopapi\\services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB6ADEFA-24A5-4D72-A897-8F2E0D9694F8}|GameShopAPI\\GameShopAPI.csproj|solutionrelative:gameshopapi\\services\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -120,7 +104,7 @@
               "RelativeDocumentMoniker": "GameShopAPI\\Helpers\\DependencyInjectionExtensions.cs",
               "ToolTip": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Helpers\\DependencyInjectionExtensions.cs",
               "RelativeToolTip": "GameShopAPI\\Helpers\\DependencyInjectionExtensions.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAIAwwDwAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T10:30:02.835Z",
               "EditorCaption": ""
@@ -136,54 +120,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T10:29:42.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Controller\\AuthController.cs",
-              "RelativeDocumentMoniker": "GameShopAPI\\Controller\\AuthController.cs",
-              "ToolTip": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Controller\\AuthController.cs",
-              "RelativeToolTip": "GameShopAPI\\Controller\\AuthController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:59:21.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IAdminService.cs",
-              "DocumentMoniker": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Services\\Interfaces\\IAdminService.cs",
-              "RelativeDocumentMoniker": "GameShopAPI\\Services\\Interfaces\\IAdminService.cs",
-              "ToolTip": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Services\\Interfaces\\IAdminService.cs",
-              "RelativeToolTip": "GameShopAPI\\Services\\Interfaces\\IAdminService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:40:45.083Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "GameShopAPI\\Services\\AuthService.cs",
-              "ToolTip": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Services\\AuthService.cs",
-              "RelativeToolTip": "GameShopAPI\\Services\\AuthService.cs",
-              "ViewState": "AgIAAIQAAAAAAAAAAIAwwJAAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:38:38.992Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "GameShopAPI\\Services\\Interfaces\\IAuthService.cs",
-              "ToolTip": "F:\\_Informatique\\Projects\\GameShop\\GameShopAPISolution\\GameShopAPI\\Services\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "GameShopAPI\\Services\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T08:35:16.171Z"
             }
           ]
         }

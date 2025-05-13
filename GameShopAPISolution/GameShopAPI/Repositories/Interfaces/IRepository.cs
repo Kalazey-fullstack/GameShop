@@ -9,7 +9,7 @@ namespace GameShopAPI.Repositories.Interfaces
         Task<T?> Get(Expression<Func<T, bool>> predicate);
         Task<IEnumerable<T>> GetAll();
         Task<IEnumerable<T>> GetAll(Expression<Func<T, bool>> predicate);
-        Task<T> Update(T entity);
+        Task<T?> Update(T entity);
         Task<bool> Delete(Tid id);
     }
 }

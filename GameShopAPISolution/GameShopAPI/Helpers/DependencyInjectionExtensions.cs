@@ -75,12 +75,14 @@ namespace GameShopAPI.Helpers
         private static void AddRepositories(this WebApplicationBuilder builder)
         {
             builder.Services.AddScoped<IRepository<User,Guid>, UserRepository>();
+            builder.Services.AddScoped<IRepository<AdminU, Guid>, AdminURepository>();
         }
 
 
         private static void AddServices(this WebApplicationBuilder builder)
         {
             builder.Services.AddScoped<IUserService,UserService>();
+            builder.Services.AddScoped<IAdminUService, AdminUService>();
         }
 
         private static void AddAuthentification(this WebApplicationBuilder builder)

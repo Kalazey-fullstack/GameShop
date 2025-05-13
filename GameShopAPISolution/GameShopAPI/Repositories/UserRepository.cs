@@ -30,7 +30,7 @@ namespace GameShopAPI.Repositories
 
         public async Task<User?> GetById(Guid id) => await _db.Users.FindAsync(id);
 
-        public async Task<User> Update(User user)
+        public async Task<User?> Update(User user)
         {
             var userFromDb = await GetById(user.Id);
             if (userFromDb is null) return null;
