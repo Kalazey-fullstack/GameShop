@@ -1,4 +1,5 @@
-﻿using GameShopAPI.Models.Users;
+﻿using GameShopAPI.Models;
+using GameShopAPI.Models.Users;
 using Microsoft.EntityFrameworkCore;
 
 namespace GameShopAPI.Data
@@ -9,5 +10,6 @@ namespace GameShopAPI.Data
 
         public DbSet<User> Users { get; set; }
         public DbSet<AdminU> AdminU { get; set; }
+        public DbSet<Game> Games { get; set; }
     }
 }

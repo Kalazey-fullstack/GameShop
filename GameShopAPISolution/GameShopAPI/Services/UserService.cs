@@ -16,7 +16,7 @@ namespace GameShopAPI.Services
             _encryptor = new Encryptor();
         }
 
-        public async Task<User?> Create(User user)
+        public async Task<User> Create(User user)
         {
             try
             {
@@ -24,7 +24,7 @@ namespace GameShopAPI.Services
                 return await _userRepository.Add(user);
             }catch (Exception ex)
             {
-                Console.WriteLine($"Erreur lors d'ajout de l'utilisateur {user.Email} : {ex.Message}");
+                Console.WriteLine($"Error adding user {user.Email} : {ex.Message}");
                 Console.WriteLine(ex.StackTrace);
                 throw;
             }
@@ -36,17 +36,17 @@ namespace GameShopAPI.Services
 
         public async Task<User?> GetById(Guid id) => await _userRepository.GetById(id);
 
-        public async Task<User> Update(Guid id, User user)
+        public async Task<User?> Update(Guid id, User user)
         {
             try
             {
                 user.Id = id;
                 user.Password = _encryptor.EncryptPassword(user.Password);
-                return await _userRepository.Update(user) ?? throw new KeyNotFoundException($"L'utilisateur avec l'id {id} est introuvable.");
+                return await _userRepository.Update(user) ?? throw new KeyNotFoundException($"The user with id {id} cannot be found.");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erreur de modification de l'utilisateur avec l'id {id} : {ex.Message}");
+                Console.WriteLine($"Error modifying user with id {id} : {ex.Message}");
                 Console.WriteLine(ex.StackTrace);
                 throw;
             }
@@ -57,11 +57,11 @@ namespace GameShopAPI.Services
             try
             {
                 if (!await _userRepository.Delete(id))
-                    throw new KeyNotFoundException($"L'utilisateur avec l'id {id} est introuvable.");
+                    throw new KeyNotFoundException($"The user with id {id} cannot be found.");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Erreur de suppression de l'utilisateur avec l'id {id} : {ex.Message}");
+                Console.WriteLine($"Error deleting user with id {id} : {ex.Message}");
                 Console.WriteLine(ex.StackTrace);
                 throw;
             }

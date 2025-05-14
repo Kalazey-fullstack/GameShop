@@ -23,39 +23,39 @@ namespace GameShopAPI.Controller
 
         //GET /User
         [HttpGet]
-        [SwaggerOperation(Summary = "Obtenir la liste d'utilisateurs")]
+        [SwaggerOperation(Summary = "Get Users list")]
         [ProducesResponseType(typeof(IEnumerable<User>), StatusCodes.Status200OK)]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get()      
         {
             var users = await _userService.GetAll();
             return Ok(users);
         }
 
-        // GET /USER/{id}
+        // GET /User/{id}
         [HttpGet("{id}")]
-        [SwaggerOperation(Summary = "Obtenir un utilisateur par ID")]
+        [SwaggerOperation(Summary = "Get user by Id")]
         [ProducesResponseType(typeof(User), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> GetById(Guid id)
         {
             var user = await _userService.GetById(id);
-            return user != null ? Ok(user) : NotFound($"L'utilisateur avec l'id {id} est introuvable");
+            return user != null ? Ok(user) : NotFound($"The user with id {id} cannot be found");
         }
 
         //GET /User/{email}
         [HttpGet("{email}")]
-        [SwaggerOperation(Summary = "Obtenir un utilisateur par l'email")]
+        [SwaggerOperation(Summary = "Get a user by email")]
         [ProducesResponseType(typeof(User), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> GetByEmail(string email)
         {
             var user = await _userService.GetByEmail(email);
-            return user != null ? Ok(user) : NotFound($"L'utilisateur avec l'email {email} est introuvable");
+            return user != null ? Ok(user) : NotFound($"The user with the email {email} cannot be found");
         }
 
         //POST /User
         [HttpPost]
-        [SwaggerOperation(Summary = "Créer un nouvel utilisateur")]
+        [SwaggerOperation(Summary = "Create a new user")]
         [ProducesResponseType(typeof(User), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Create([FromBody] User user)
@@ -69,13 +69,13 @@ namespace GameShopAPI.Controller
             }
             catch (Exception ex)
             {
-                return BadRequest($"Erreur lors de la création de l'utilisateur : {ex.Message}");
+                return BadRequest($"Error creating user : {ex.Message}");
             }
         }
 
         //PUT /User/{id}
         [HttpPut("{id}")]
-        [SwaggerOperation(Summary = "Mettre à jour d'un utilisateur")]
+        [SwaggerOperation(Summary = "Update a user")]
         [ProducesResponseType(typeof(User), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(string),StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
@@ -92,13 +92,13 @@ namespace GameShopAPI.Controller
             }
             catch (Exception ex)
             {
-                return BadRequest($"Erreur lors de la mise à jour de l'utilisateur : {ex.Message} ");
+                return BadRequest($"User update error : {ex.Message} ");
             }
         }
 
         //DELETE /user/{id}
         [HttpDelete("{id}")]
-        [SwaggerOperation(Summary = "Supprimer un utilisateur")]
+        [SwaggerOperation(Summary = "Deleting a user")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(typeof(string), StatusCodes.Status404NotFound)]
         [ProducesResponseType(typeof(string), StatusCodes.Status400BadRequest)]
@@ -115,7 +115,7 @@ namespace GameShopAPI.Controller
             }
             catch (Exception ex)
             {
-                return BadRequest($"Erreur lors de la suppression de l'utilisateur : {ex.Message}");
+                return BadRequest($"Error deleting user : {ex.Message}");
             }
         }
     }

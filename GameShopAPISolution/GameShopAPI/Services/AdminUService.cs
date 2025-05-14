@@ -20,7 +20,7 @@ namespace GameShopAPI.Services
         {
             try
             {
-                adminU.Password = _encryptor.EncryptPassword(adminU.Password);
+                adminU.Password = _encryptor.EncryptPassword(adminU.Password!);
                 return await _adminRepository.Add(adminU);
             }
             catch (Exception ex)

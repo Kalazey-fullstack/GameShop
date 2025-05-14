@@ -2,7 +2,7 @@
 
 namespace GameShopAPI.Repositories.Interfaces
 {
-    public interface IRepository<T, Tid> where T : new()
+    public interface IRepository<T, Tid> where T : class
     {
         Task<T> Add(T entity);
         Task<T?> GetById(Tid id);
