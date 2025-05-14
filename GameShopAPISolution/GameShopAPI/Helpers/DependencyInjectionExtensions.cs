@@ -1,4 +1,5 @@
 ﻿using GameShopAPI.Data;
+using GameShopAPI.Models;
 using GameShopAPI.Models.Users;
 using GameShopAPI.Repositories;
 using GameShopAPI.Repositories.Interfaces;
@@ -76,6 +77,7 @@ namespace GameShopAPI.Helpers
         {
             builder.Services.AddScoped<IRepository<User,Guid>, UserRepository>();
             builder.Services.AddScoped<IRepository<AdminU, Guid>, AdminURepository>();
+            builder.Services.AddScoped<IRepository<Game, int>, GameRepository>();
         }
 
 
