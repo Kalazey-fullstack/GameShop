@@ -30,6 +30,7 @@ namespace GameShopAPI.Services
         public Task<IEnumerable<Game>> GetAllGames() => _gameRepository.GetAll();
 
         public Task<Game?> GetById(int id) => _gameRepository.GetById(id);
+        public Task<Game?> GetByName(string name) => _gameRepository.Get(g => g.Name == name);
 
         public Task<IEnumerable<Game>> GetExpansionsForGame(int baseGameId) => _gameRepository.GetAll(g => g.BaseGameId == baseGameId);
 
@@ -62,5 +63,6 @@ namespace GameShopAPI.Services
                 throw;
             }
         }
+
     }
 }

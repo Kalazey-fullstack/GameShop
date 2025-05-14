@@ -6,6 +6,7 @@ namespace GameShopAPI.Services.Interfaces
     {
         Task<IEnumerable<Game>> GetAllGames();
         Task<Game?> GetById(int id);
+        Task<Game?> GetByName(string name);
         Task<IEnumerable<Game>> GetExpansionsForGame(int baseGameId);
         Task<Game> CreateGame(Game game);
         Task<Game> UpdateGame(int id, Game game);

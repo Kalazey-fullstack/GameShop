@@ -80,11 +80,11 @@ namespace GameShopAPI.Helpers
             builder.Services.AddScoped<IRepository<Game, int>, GameRepository>();
         }
 
-
         private static void AddServices(this WebApplicationBuilder builder)
         {
             builder.Services.AddScoped<IUserService,UserService>();
             builder.Services.AddScoped<IAdminUService, AdminUService>();
+            builder.Services.AddScoped<IGameService, GameService>();
         }
 
         private static void AddAuthentification(this WebApplicationBuilder builder)
